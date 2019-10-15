@@ -1,0 +1,205 @@
+h1 {
+   font-family: 'Archivo', sans-serif; 
+    font-size: 35px;
+    letter-spacing: -2px;
+    margin-left: -20px;
+}
+
+h3 {
+   font-family: 'Archivo', sans-serif; 
+    font-size: 30px;
+    letter-spacing: -2px; 
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+
+p {
+    font-family: 'Heebo', sans-serif; 
+    color:  orangered;
+        margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+
+   
+ 
+   
+   
+}
+
+
+
+body {
+    
+ margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#window-left {
+    
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    padding-bottom: 25px;
+    overflow-y: scroll;   
+    min-width: 40%;
+    padding-left: 50px;
+    padding-bottom: 0px;
+    background-color: white;
+  
+    
+    
+   
+}
+
+.key{
+    
+    position:fixed;
+    z-index: -3;
+    padding-left: 350px;
+    
+}
+
+#window-right{
+    background: #eee;
+    position: fixed;
+    left: 50vw;
+    width: 50%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.center{
+   
+   height: 50%;
+    
+    
+/*
+    padding-top: 100px;
+    padding-right: 225px;
+*/
+}
+
+.container {
+    
+    width: 90%;
+    display: block;
+    margin: auto;
+    padding: 0;
+    margin-left: -0px;
+    padding-top: 80px;
+    display: block;
+}
+
+
+
+.row{
+    
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-right: -15px;
+    margin-left: -15px;
+    
+    
+  
+    
+}
+
+.row2{
+    
+    margin-right: -15px;
+    margin-left: -15px;
+    
+    
+  
+    
+}
+
+.push {
+    
+    z-index: -1;
+}
+
+
+
+.topic {
+    font-family: 'Archivo', sans-serif; 
+   
+    font-size: 16px;
+    font-weight: 400;
+    float:left;
+    width: 80%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 1px;
+    z-index: 1;
+   
+   
+}
+
+
+
+.projects {
+     font-family: 'Archivo', sans-serif; 
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    float:left;
+    width: 200px;
+   position:absolute;
+    margin-top: 120px;
+   
+    
+    
+    
+ 
+    
+}
+
+
+
+
+
+.now {
+    font-family: 'Archivo', sans-serif; 
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+        
+    
+   
+    padding-left: 15px;
+    float:left;
+    width:30%;
+    margin-left: 30px;
+    
+}
+
+a:link {
+    font-family: 'Archivo-SemiBold', sans-serif; 
+    color: #000;
+        font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+a:visited {
+     font-family: 'Archivo-SemiBold', sans-serif; 
+    color: #000;
+        font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
