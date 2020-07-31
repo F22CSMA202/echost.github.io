@@ -67,7 +67,7 @@ body {
 }
 
 .marquee{
-    background: rgb(169, 169, 169, 0.2);
+   /* background: rgb(169, 169, 169, 0.2); */
     height: 40px;
     width: 1800px;
     overflow: hidden;
